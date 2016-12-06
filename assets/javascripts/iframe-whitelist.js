@@ -5,5 +5,6 @@
   Discourse.Markdown.whiteListIframe(/^(https?:)?\/\/doodle\.com\/poll\/.+/i);
   Discourse.Markdown.whiteListIframe(/^(https?:)?\/\/civicdashboards\.com\/.+/i);
   Discourse.Markdown.whiteListIframe(/^(https?:)?\/\/data\.beta\.nyc\/.+/i);
+  Discourse.Markdown.whiteListIframe(/^(https?:)?\/\/(.*?)\.carto\.com\/(.*?)\/embed_map$/i);
   Discourse.Markdown.whiteListIframe(/^(https?:)?\/\/(.*?)\.cartodb\.com\/(.*?)\/embed_map$/i);
 })();
